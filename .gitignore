@@ -1,0 +1,5 @@
+# vscode and other env
+.vscode
+
+# dataset
+face_mask_detection/dataset
