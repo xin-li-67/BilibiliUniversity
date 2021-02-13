@@ -87,6 +87,7 @@ class MovieModel(tf.keras.Model):
         self.title_text_embedding(titles),
     ], axis=1)
 
+# combine the two models above
 class MovielensModel(tfrs.models.Model):
   def __init__(self, use_timestamps):
     super().__init__()

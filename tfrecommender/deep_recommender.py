@@ -60,10 +60,8 @@ class UserModel(tf.keras.Model):
 
 class QueryModel(tf.keras.Model):
   """Model for encoding user queries."""
-
   def __init__(self, layer_sizes):
     """Model for encoding user queries.
-
     Args:
       layer_sizes:
         A list of integers where the i-th entry represents the number of units
@@ -120,10 +118,8 @@ class MovieModel(tf.keras.Model):
 
 class CandidateModel(tf.keras.Model):
   """Model for encoding movies."""
-
   def __init__(self, layer_sizes):
     """Model for encoding movies.
-
     Args:
       layer_sizes:
         A list of integers where the i-th entry represents the number of units
