@@ -5,3 +5,4 @@
 2. xinsite: django study and heroku deployment;  
 3. covid19_dashboard: study on developing a python web app;  
 4. tfrecommender: study on TensorFlow Recommender;  
+5. AWS fullstack web app development: build a Mythical Mysfits sample app;  

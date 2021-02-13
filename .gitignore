@@ -3,3 +3,6 @@
 
 # dataset
 face_mask_detection/dataset
+
+# images
+aws_sample_app/images
