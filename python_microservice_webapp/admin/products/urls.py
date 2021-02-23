@@ -7,7 +7,7 @@ urlpatterns = [
         'get': 'list',
         'post': 'create'
     })),
-    path('products/<str:id>', ProductViewSet.as_view({
+    path('products/<str:pk>', ProductViewSet.as_view({
         'get': 'retrieve',
         'put': 'update',
         'delete': 'destroy'

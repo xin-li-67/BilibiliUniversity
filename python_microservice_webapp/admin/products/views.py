@@ -11,7 +11,7 @@ from .serializers import ProductSerializer
 import random
 
 # Create your views here.
-class ProductViewSet(viewSets.ViewSet):
+class ProductViewSet(viewsets.ViewSet):
     def list(self, request): # /api/products
         products = Product.objects.all()
         serializer = ProductSerializer(products, many=True)
@@ -47,8 +47,8 @@ class ProductViewSet(viewSets.ViewSet):
         product = Product.objects.get(id=pk)
         product.delete()
 
-        publish('produt_deleted', pk)
-
+        publish('product_deleted', pk)
+        
         return Response(status=status.HTTP_204_NO_CONTENT)
 
 class UserAPIView(APIView):
