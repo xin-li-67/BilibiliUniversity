@@ -1,8 +1,12 @@
 # vscode and other env
 .vscode
+__pycache__
 
 # dataset
 face_mask_detection/dataset
 
 # images
 aws_sample_app/images
+
+# misc
+.DS_Store

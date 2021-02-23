@@ -10,7 +10,7 @@ channel.queue_declare(queue='main')
 def callback(ch, method, properties, body):
     print('Received in main')
     id = json.loads(body)
-    print(id)
+    print(data)
 
     if properties.content_type == 'product_created':
         product = Product(id=data['id'], title=data['title'], image=data['image'])
@@ -30,7 +30,7 @@ def callback(ch, method, properties, body):
     elif properties.content_type == 'product_deleted':
         product = Product.query.get(data)
         db.session.delete(product)
-        db.seesion.commit()
+        db.session.commit()
 
         print('Product Deleted')
 
