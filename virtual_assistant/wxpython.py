@@ -1,4 +1,4 @@
-import wx
+import wxpython as wx
 
 class MyFrame(wx.Frame):
     def __init__(self):
