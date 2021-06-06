@@ -1,6 +1,7 @@
 # vscode and other env
 .vscode
 __pycache__
+*.ipynb
 
 # dataset
 face_mask_detection/dataset
