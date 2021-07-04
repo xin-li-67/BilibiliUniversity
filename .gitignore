@@ -1,13 +1,16 @@
 # vscode and other env
 .vscode
 __pycache__
-*.ipynb
 
 # dataset
 face_mask_detection/dataset
 
 # images
 aws_sample_app/images
+tf_object_detection/tensorflow/workspace/images
 
 # misc
 .DS_Store
+
+# tar
+.tar.gz
