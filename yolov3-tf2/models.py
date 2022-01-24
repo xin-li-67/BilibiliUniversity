@@ -19,7 +19,7 @@ flags.DEFINE_float('yolo_score_threshold', 0.5, 'score threshold')
 yolo_anchors = np.array([(10, 13), (16, 30), (33, 23), (30, 61), (62, 45), (59, 119), (116, 90), (156, 198), (373, 326)], np.float32) / 416
 yolo_anchor_masks = np.array([[6, 7, 8], [3, 4, 5], [0, 1, 2]])
 yolo_tiny_anchors = np.array([(10, 14), (23, 27), (37, 58), (81, 82), (135, 169),  (344, 319)], np.float32) / 416
-yolo_tiny_anchor_masks = np.array([[3, 4, 5], [0, 1, 2]])
+yolo_tiny_anchors_masks = np.array([[3, 4, 5], [0, 1, 2]])
 
 def darknet_conv(x, filters, size, strides=1, batch_norm=True):
     if strides == 1:
