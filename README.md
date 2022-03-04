@@ -11,4 +11,3 @@
 - [x] Bitcoin Miner: study the process with a basic bitcoin miner and develop a more realistic one: trying to make this a little bit more complexed; 
 - [x] Virtual Assistant: build a basic python app which involves with Wikipedia and Wolframe Alpha. TTS service is a plus;    
 - [x] Hand Gesture Detection: build a hand gesture detector using TF2;
-- [ ] YoloV3-TF2
