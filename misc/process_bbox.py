@@ -81,7 +81,7 @@ def process_xml_annotation(xml_file):
 
 if __name__ == '__main__':
     if len(sys.argv) < 2 or len(sys.argv) > 3:
-        print('Invalid usage\n'
+        print('Invalid usage\n' 
             'usage: process_bounding_boxes.py <dir> [synsets-file]',
             file=sys.stderr)
         
